@@ -1,0 +1,17 @@
+{
+    "schema_version": "v1",
+    "name_for_human": "Currency Converter",
+    "name_for_model": "currency_converter",
+    "description_for_human": "Convert between different currencies. You can specify the amount and the source and target currencies.",
+    "description_for_model": "Help the user convert between different currencies. You can specify the amount and the source and target currencies.",
+    "auth": {
+        "type": "none"
+    },
+    "api": {
+        "type": "openapi",
+        "url": "http://localhost:3333/.well-known/openapi.yaml"
+    },
+    "logo_url": "https://avatars.githubusercontent.com/u/10758833?v=4",
+    "contact_email": "me@w0x7ce.eu",
+    "legal_info_url": "http://www.example.com/legal"
+}
